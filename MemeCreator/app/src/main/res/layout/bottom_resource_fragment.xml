@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meme_template">
+
+    <TextView
+        android:id="@+id/topMemeText"
+        android:layout_width="161dp"
+        android:layout_height="323dp"
+        android:gravity="top"
+        android:text="@string/playing_ludo_in_other_apps"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bottomMemeText"
+        android:layout_width="158dp"
+        android:layout_height="285dp"
+        android:gravity="center_vertical"
+        android:text="@string/playing_ludo_in_ludo_king"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
